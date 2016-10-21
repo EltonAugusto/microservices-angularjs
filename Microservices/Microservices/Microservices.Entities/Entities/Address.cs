@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microservices.Entities.Entities.Enum;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,7 +30,7 @@ namespace Microservices.Entities.Entities
         /// <summary>
         /// Address type E.g: Avenue, Street.
         /// </summary>
-        public AddressType AddresType { get; private set; }
+        public AddresType AddresType { get; private set; }
 
         /// <summary>
         /// Address name.
